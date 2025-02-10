@@ -104,7 +104,7 @@ export const identifyContact = asyncHandler(async (req: Request, res: Response) 
   );
 });
 
-
+//just for inserting dummy data in postgress
 export const createContact = asyncHandler(async (req: Request, res: Response) => {
   const { email, phoneNumber, linkedId, linkPrecedence } = req.body;
 
